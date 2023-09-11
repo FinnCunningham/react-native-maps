@@ -38,13 +38,5 @@ Pod::Spec.new do |s|
     "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/boost\"",
     "CLANG_CXX_LANGUAGE_STANDARD" => "c++17"
   }
-
-#   s.dependency "React-Core"
-#   s.dependency "React-RCTFabric" # This is for fabric component
-#   s.dependency "React-Codegen"
-#   s.dependency "RCT-Folly", folly_version
-#   s.dependency "RCTRequired"
-#   s.dependency "RCTTypeSafety"
-#   s.dependency "ReactCommon/turbomodule/core"
   install_modules_dependencies(s)
 end
